@@ -2,4 +2,79 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.second-bg {
+  background-color: #fafafa;
+}
+.navbar {
+  min-height: 87px;
+}
+.navbar-brand {
+  font-size: 3rem;
+}
+.navbar .nav-item > a.nav-link {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.navbar .nav-item.active > a.nav-link {
+  color: #2871fa;
+}
+.section-home {
+  min-height: calc(100vh - 87px);
+}
+.img-contain {
+  object-fit: contain;
+}
+.btn {
+  background-color: #2871fa;
+  color: #ffffff;
+}
+.btn.btn-outline {
+  border-color: #2871fa;
+  background-color: transparent;
+  color: #2871fa;
+}
+.btn.btn-outline:hover {
+  background-color: #2871fa;
+  color: #ffffff;
+}
+.btn.round-btn {
+  height: 32px;
+  border-radius: 30px;
+}
+.mega-text {
+  font-weight: 700;
+  font-size: 36px;
+}
+.bold {
+  font-weight: 900;
+}
+.highlight {
+  color: #2871fa;
+}
+.section-heading,
+.section-heading * {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+/* How it works */
+.work-group-heading {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+/* In touch */
+.mw-form {
+  max-width: 800px;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+input.form-control,
+textarea.form-control {
+  border-color: #007dfe;
+  border-radius: 0;
 }

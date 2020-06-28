@@ -12,23 +12,308 @@
     <meta name="description" content="apps, technology" />
     <meta name="keywords" content="" />
     <!-- Website title-->
-    <title>APP LANDING PAGE</title>
+    <title>Travel App Landing Page</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="" />
     <!-- Google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/halo-handletter"
       rel="stylesheet"
     />
     <!-- CSS links-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
+    <!-- Nav Section -->
+    <nav class="navbar navbar-expand-md navbar-light border-bottom">
+      <div class="container">
+        <a style="font-family: HaloHandletter;" class="navbar-brand" href="#">
+          <img
+            src="./assets/images/logo.svg"
+            width="30"
+            height="30"
+            class="d-inline-block align-middle mr-3"
+            alt=""
+            loading="lazy"
+          />
+          Traveller
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-0 mr-md-2 active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item mr-0 mr-md-2">
+              <a class="nav-link" href="#">How it works</a>
+            </li>
+            <li class="nav-item mr-0 mr-md-2">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item mr-0 mr-md-2">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item mr-0 mr-md-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline ml-0 ml-md-2">
+            <button
+              class="btn btn-sm btn-outline btn-block rounded-0"
+              type="button"
+            >
+              Download For Free
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Home Landing Section -->
+    <section id="section-home" class="section-home d-flex align-items-center">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-md-5 d-flex justify-content-center">
+            <img class="img-contain" src="./assets/images/landing.png" alt="" />
+          </div>
+          <div
+            class="col-12 col-md-7 d-flex align-content-center justify-content-center justify-content-md-start"
+          >
+            <div class="home-section-text text-center text-md-left d-flex flex-column justify-content-center">
+              <span class="mega-text d-block"
+                >An easier journey,<br />
+                all the time
+              </span>
+              <span class="d-block"
+                >Think about the ease of checking out different places to visit,
+                all at your fingertips through the
+                <span class="bold highlight">Traveller</span> app.</span
+              >
+
+              <span class="d-block mt-4 font-weight-bold"
+                >Download the App today for an unforgotten experience</span
+              >
+              <div class="landing-download-section mt-3">
+                <a
+                  href=""
+                  class="btn round-btn d-inline-flex align-items-center mr-4"
+                  ><ion-icon
+                    class="mr-2"
+                    name="logo-google-playstore"
+                  ></ion-icon
+                  >Play Store</a
+                ><a
+                  href=""
+                  class="btn round-btn d-inline-flex align-items-center"
+                  ><ion-icon class="mr-2" name="logo-apple"></ion-icon>App
+                  Store</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it works section -->
+    <section id="section-works" class="section-works py-5 second-bg">
+      <div class="container">
+        <div class="section-heading text-center">How it <span class="highlight">works</span></div>
+        <div class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0">
+          <div class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center" data-number="01" data-right="false">
+            <div class="d-md-none"><img src="./assets/images/signinup.svg"></img></div>
+            <div class="work-group-heading">Sign up/sign in</div>
+            <div class="work-group-body">
+              Think about the ease of checking out different places to visit,
+              all at your fingertips through the
+              <span class="bold highlight">Traveller</span> app.
+            </div>
+            
+          </div>
+          <div class="work-group-img d-none d-md-block">
+            <img src="./assets/images/Sign-in 1.png" alt="" srcset="">
+          </div>
+        </div>
+        <div class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0">
+          <div class="work-group-img d-none d-md-block">
+            <img src="./assets/images/Search 1.png" alt="" srcset="">
+          </div>
+          <div class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center" data-number="02" data-right="true">
+            <div class="d-md-none"><img src="./assets/images/signinup.svg"></img></div>
+            <div class="work-group-heading">Search for Trip</div>
+            <div class="work-group-body">
+              Think about the ease of checking out different places to visit,
+              all at your fingertips through the
+              <span class="bold highlight">Traveller</span> app.
+            </div>
+            
+          </div>
+          
+        </div>
+        <div class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0">
+          <div class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center" data-number="03" data-right="false">
+            <div class="d-md-none"><img src="./assets/images/signinup.svg"></img></div>
+            <div class="work-group-heading">Save the Trip</div>
+            <div class="work-group-body">
+              Think about the ease of checking out different places to visit,
+              all at your fingertips through the
+              <span class="bold highlight">Traveller</span> app.
+            </div>
+            
+          </div>
+          <div class="work-group-img d-none d-md-block">
+            <img src="./assets/images/Select Flight 1.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- App features section -->
+    <section id="section-features" class="section-features py-5">
+      <div class="container">
+        <div class="section-heading text-center">App <span class="highlight">Features</span></div>
+      </div>
+    </section>
+    <!-- Users Review section -->
+    <section id="section-review" class="section-review py-5 second-bg">
+      <div class="container">
+        <div class="section-heading text-center">Users <span class="highlight">Review</span></div>
+      </div>
+    </section>
+    <!--  App Downloiad section-->
+    <section id="section-download" class="section-download py-5">
+      <div class="container">
+        <div class="section-heading text-center">App <span class="highlight">Download</span></div>
+      </div>
+    </section>
+    <!-- Get in touch section -->
+    <section id="section-intouch" class="section-intouch">
+      <div class="container">
+        <div class="section-heading text-center">Get in <span class="highlight">Touch</span></div>
+        <div class="row">
+          <div class="col-12 mx-auto mw-form">
+            <form
+              data-aos="flip-up"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-cubic"
+              data-aos-once="true"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  placeholder="Message"
+                  class="form-control"
+                  rows="5"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-block rounded-0">
+                <span class="pr-3 vam">Send</span
+                ><ion-icon class="vam" name="send-outline"></ion-icon>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="mw-form row mx-auto py-5">
+          <div class="col-12 my-3 col-md-4 d-flex flex-row align-items-center">
+            <span class="d-inline-block contact-icon mr-2">
+              <img
+                height="36px"
+                width="36px"
+                src="./assets/images/location.svg"
+                alt=""
+                srcset=""
+              />
+            </span>
+            <div class="d-inline-block contact-text">
+              <span class="bold-span">Location</span><br />
+              Jamesmeth Street, N0. 14 Alaba
+            </div>
+          </div>
+          <div class="col-12 my-3 col-md-4 d-flex flex-row align-items-center">
+            <span class="d-inline-block contact-icon mr-2">
+              <img
+                height="36px"
+                width="36px"
+                src="./assets/images/email.svg"
+                alt=""
+                srcset=""
+              />
+            </span>
+            <div class="d-inline-block contact-text">
+              <span class="bold-span">Email</span><br />
+              support@traveller.com
+            </div>
+          </div>
+          <div class="col-12 my-3 col-md-4 d-flex flex-row align-items-center">
+            <span class="d-inline-block contact-icon mr-2">
+              <img
+                height="36px"
+                width="36px"
+                src="./assets/images/phone.svg"
+                alt=""
+                srcset=""
+              />
+            </span>
+            <div class="d-inline-block contact-text">
+              <span class="bold-span">Phone</span><br />
+              +3489-67-54-0976
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   </body>
 </html>

@@ -1,9 +1,37 @@
 /* MEDIA QUERIES FOR 576PX AND ABOVE */
 /* Only use the breakpoint necessary to your project */
-@media all and (min-width:576px) {}
+@media all and (min-width: 576px) {
+}
 
-@media all and (min-width:768px) {}
+@media all and (min-width: 768px) {
+  .btn.round-btn {
+    height: 49px;
+    border-radius: 30px;
+  }
+  .mega-text {
+    font-size: 54px;
+  }
+  .work-text-group {
+    position: relative;
+  }
+  .work-text-group::after {
+    content: attr(data-number);
+    position: absolute;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .work-text-group[data-right="true"]::after {
+    right: -50px;
+  }
+  .work-text-group[data-right="false"]::after {
+    left: -50px;
+  }
+}
 
-@media all and (min-width:992px) {}
+@media all and (min-width: 992px) {
+}
 
-@media all and (min-width:1200px) {}
+@media all and (min-width: 1200px) {
+}
