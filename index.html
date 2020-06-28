@@ -24,6 +24,14 @@
       href="https://fonts.cdnfonts.com/css/halo-handletter"
       rel="stylesheet"
     />
+    <!-- Tiny Slider CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+    />
+    <!--[if (lt IE 9)
+      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script
+    ><![endif]-->
     <!-- CSS links-->
     <link
       rel="stylesheet"
@@ -100,7 +108,9 @@
           <div
             class="col-12 col-md-7 d-flex align-content-center justify-content-center justify-content-md-start"
           >
-            <div class="home-section-text text-center text-md-left d-flex flex-column justify-content-center">
+            <div
+              class="home-section-text text-center text-md-left d-flex flex-column justify-content-center"
+            >
               <span class="mega-text d-block"
                 >An easier journey,<br />
                 all the time
@@ -117,7 +127,7 @@
               <div class="landing-download-section mt-3">
                 <a
                   href=""
-                  class="btn round-btn d-inline-flex align-items-center mr-4"
+                  class="btn landing-btn d-inline-flex align-items-center mr-4"
                   ><ion-icon
                     class="mr-2"
                     name="logo-google-playstore"
@@ -125,7 +135,7 @@
                   >Play Store</a
                 ><a
                   href=""
-                  class="btn round-btn d-inline-flex align-items-center"
+                  class="btn landing-btn d-inline-flex align-items-center"
                   ><ion-icon class="mr-2" name="logo-apple"></ion-icon>App
                   Store</a
                 >
@@ -138,51 +148,73 @@
     <!-- How it works section -->
     <section id="section-works" class="section-works py-5 second-bg">
       <div class="container">
-        <div class="section-heading text-center">How it <span class="highlight">works</span></div>
-        <div class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0">
-          <div class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center" data-number="01" data-right="false">
-            <div class="d-md-none"><img src="./assets/images/signinup.svg"></img></div>
+        <div class="section-heading text-center">
+          How it <span class="highlight">works</span>
+        </div>
+        <div
+          class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0"
+        >
+          <div
+            class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center"
+            data-number="01"
+            data-right="false"
+          >
+            <div class="d-md-none">
+              <img src="./assets/images/signinup.svg"/g>
+            </div>
             <div class="work-group-heading">Sign up/sign in</div>
             <div class="work-group-body">
               Think about the ease of checking out different places to visit,
               all at your fingertips through the
               <span class="bold highlight">Traveller</span> app.
             </div>
-            
           </div>
           <div class="work-group-img d-none d-md-block">
-            <img src="./assets/images/Sign-in 1.png" alt="" srcset="">
+            <img src="./assets/images/Sign-in 1.png" alt="" srcset="" />
           </div>
         </div>
-        <div class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0">
+        <div
+          class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0"
+        >
           <div class="work-group-img d-none d-md-block">
-            <img src="./assets/images/Search 1.png" alt="" srcset="">
+            <img src="./assets/images/Search 1.png" alt="" srcset="" />
           </div>
-          <div class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center" data-number="02" data-right="true">
-            <div class="d-md-none"><img src="./assets/images/signinup.svg"></img></div>
+          <div
+            class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center"
+            data-number="02"
+            data-right="true"
+          >
+            <div class="d-md-none">
+              <img src="./assets/images/search.svg" />
+            </div>
             <div class="work-group-heading">Search for Trip</div>
             <div class="work-group-body">
               Think about the ease of checking out different places to visit,
               all at your fingertips through the
               <span class="bold highlight">Traveller</span> app.
             </div>
-            
           </div>
-          
         </div>
-        <div class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0">
-          <div class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center" data-number="03" data-right="false">
-            <div class="d-md-none"><img src="./assets/images/signinup.svg"></img></div>
+        <div
+          class="work-step-group row justify-content-center text-center text-md-left py-5 py-md-0"
+        >
+          <div
+            class="work-text-group col-12 col-md-4 d-flex flex-column justify-content-center"
+            data-number="03"
+            data-right="false"
+          >
+            <div class="d-md-none">
+              <img src="./assets/images/bulb.svg" />
+            </div>
             <div class="work-group-heading">Save the Trip</div>
             <div class="work-group-body">
               Think about the ease of checking out different places to visit,
               all at your fingertips through the
               <span class="bold highlight">Traveller</span> app.
             </div>
-            
           </div>
           <div class="work-group-img d-none d-md-block">
-            <img src="./assets/images/Select Flight 1.png" alt="" srcset="">
+            <img src="./assets/images/Select Flight 1.png" alt="" srcset="" />
           </div>
         </div>
       </div>
@@ -190,25 +222,125 @@
     <!-- App features section -->
     <section id="section-features" class="section-features py-5">
       <div class="container">
-        <div class="section-heading text-center">App <span class="highlight">Features</span></div>
+        <div class="section-heading text-center">
+          App <span class="highlight">Features</span>
+        </div>
       </div>
     </section>
     <!-- Users Review section -->
     <section id="section-review" class="section-review py-5 second-bg">
       <div class="container">
-        <div class="section-heading text-center">Users <span class="highlight">Review</span></div>
+        <div class="section-heading text-center">
+          Users <span class="highlight">Review</span>
+        </div>
+        <div class="my-slider">
+          <div>
+            <div
+              class="user-review-card-group mw-form mx-auto card pb-5 rounded-0 border-0 text-center"
+            >
+              <div class="review-card-img bg-dark">
+                <img
+                  src="./assets/images/avatar.png"
+                  alt=""
+                  class="boxed-img"
+                />
+              </div>
+              <div class="card-head bold mb-1">Sarah Smith 1</div>
+              <div class="card-desc text-small mb-3">Tourist</div>
+              <div
+                class="card-icon mb-3 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/images/quote.png"
+                  alt=""
+                  class="img-contain w-50"
+                />
+              </div>
+              <div class="card-content text-muted">
+                I love travelling around the world and Traveller app has been of
+                great benefit! I totally love the User Experience and Interface.
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="user-review-card-group mw-form mx-auto card pb-5 rounded-0 border-0 text-center"
+            >
+              <div class="review-card-img bg-dark">
+                <img
+                  src="./assets/images/avatar.png"
+                  alt=""
+                  class="boxed-img"
+                />
+              </div>
+              <div class="card-head bold mb-1">Sarah Smith 2</div>
+              <div class="card-desc text-small mb-3">Tourist</div>
+              <div
+                class="card-icon mb-3 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/images/quote.png"
+                  alt=""
+                  class="img-contain w-50"
+                />
+              </div>
+              <div class="card-content text-muted">
+                I love travelling around the world and Traveller app has been of
+                great benefit! I totally love the User Experience and Interface.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!--  App Downloiad section-->
+    <!--  App Download section-->
     <section id="section-download" class="section-download py-5">
       <div class="container">
-        <div class="section-heading text-center">App <span class="highlight">Download</span></div>
+        <div class="section-heading text-center">
+          App <span class="highlight">Download</span>
+        </div>
+        <div class="row py-5">
+          <div class="col-12 col-md-5 d-flex justify-content-center">
+            <img
+              class="img-contain"
+              src="./assets/images/Select Flight 3.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-12 col-md-7 d-flex align-content-center justify-content-center justify-content-md-start"
+          >
+            <div
+              class="home-section-text text-center text-md-left d-flex flex-column justify-content-center"
+            >
+              <span class="mega-text d-block"
+                >Organize your days<br />
+                of planning faster
+              </span>
+              <span class="d-block"
+                >Learn quickly how this can be achieved by downloading and
+                installing <span class="bold highlight">Traveller</span> app
+                today.</span
+              >
+              <div class="download-section mt-3">
+                <a href="" class="d-inline-flex align-items-center"
+                  ><img
+                    style="object-fit: contain; max-width: 100%;"
+                    src="./assets/images/store-badges.png"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Get in touch section -->
     <section id="section-intouch" class="section-intouch">
       <div class="container">
-        <div class="section-heading text-center">Get in <span class="highlight">Touch</span></div>
+        <div class="section-heading text-center">
+          Get in <span class="highlight">Touch</span>
+        </div>
         <div class="row">
           <div class="col-12 mx-auto mw-form">
             <form
@@ -298,6 +430,106 @@
         </div>
       </div>
     </section>
+    <footer class="py-3 second-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-sm-4 mb-5">
+            <span
+              style="font-family: HaloHandletter;"
+              class="footer-brand d-block"
+              href="#"
+            >
+              <img
+                src="./assets/images/logo.svg"
+                width="30"
+                height="30"
+                class="d-inline-block align-middle mr-3"
+                alt=""
+                loading="lazy"
+              />
+              Traveller
+            </span>
+            <div class="">
+              Think about the ease of checking out different places to visit,
+              all at your fingertips through the
+              <span class="bold highlight">Traveller</span> app.
+            </div>
+            <div class="social-icon-set mt-3">
+              <a
+                href="#"
+                class="social-icon d-inline-flex justify-content-center align-items-center"
+                ><ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a
+                href="#"
+                class="social-icon d-inline-flex justify-content-center align-items-center"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+              <a
+                href="#"
+                class="social-icon d-inline-flex justify-content-center align-items-center"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+              <a
+                href="#"
+                class="social-icon d-inline-flex justify-content-center align-items-center"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="col-5 col-sm-3 mb-5">
+            <div class="d-flex h-100 flex-column justify-content-center">
+              <div class="group-heading">Quicklinks</div>
+              <a href="#" class="d-block quicklink">Home</a>
+              <a href="#" class="d-block quicklink">How it works</a>
+              <a href="#" class="d-block quicklink">Features</a>
+              <a href="#" class="d-block quicklink">Users review</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-5 mb-5">
+            <div class="d-flex h-100 flex-column justify-content-center">
+              <div class="group-heading">Subscribe to our Newsletter</div>
+              <div class="mb-3">
+                Stay updated through our newsletter and never miss any update
+                again!
+              </div>
+              <form class="form-inline">
+                <div class="form-group mr-sm-3 mb-2 flex-grow-1">
+                  <input
+                    type="email"
+                    class="form-control w-100"
+                    placeholder="Email"
+                  />
+                </div>
+                <button type="submit" class="btn rounded-0 mb-2">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-12 col-sm-5 ml-auto mb-4">
+            <div class="group-heading">Download Now</div>
+            <a href="" class="d-inline-flex align-items-center"
+              ><img
+                style="object-fit: contain; max-width: 200px;"
+                src="./assets/images/store-badges.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="text-muted text-center">
+          Copyright &copy; 2020 All rights reserved | This template is made with
+          <span
+            ><ion-icon
+              class="highlight"
+              style="vertical-align: middle;"
+              name="heart"
+            ></ion-icon
+          ></span>
+          by HNG Interns
+        </div>
+      </div>
+    </footer>
     <!-- All javascript at the bottom of the page for fast page load -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -315,5 +547,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <!-- Myscript -->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

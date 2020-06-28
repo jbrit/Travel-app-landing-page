@@ -4,9 +4,9 @@
 }
 
 @media all and (min-width: 768px) {
-  .btn.round-btn {
+  .btn.landing-btn {
     height: 49px;
-    border-radius: 30px;
+    border-radius: 0px;
   }
   .mega-text {
     font-size: 54px;
@@ -17,10 +17,11 @@
   .work-text-group::after {
     content: attr(data-number);
     position: absolute;
-    color: rgba(0, 0, 0, 0.3);
+    color: #afafaf;
     font-weight: 900;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: #afafaf;
   }
   .work-text-group[data-right="true"]::after {
     right: -50px;

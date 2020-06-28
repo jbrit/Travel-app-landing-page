@@ -40,9 +40,9 @@
   background-color: #2871fa;
   color: #ffffff;
 }
-.btn.round-btn {
+.btn.landing-btn {
   height: 32px;
-  border-radius: 30px;
+  border-radius: 0px;
 }
 .mega-text {
   font-weight: 700;
@@ -59,9 +59,44 @@
   font-weight: 900;
   font-size: 25px;
   margin-bottom: 50px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: inherit;
+}
+/* User Review section */
+.user-review-card-group {
+  margin-top: 65px;
+  padding-top: 65px;
+}
+.review-card-img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 65px);
+  top: -65px;
+}
+.card-head {
+  font-size: 20px;
+}
+.card-icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 30px;
+  background-color: #2871fa;
+  border-radius: 50%;
+}
+.card-content {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+}
+.tns-nav {
+  display: none;
 }
 /* How it works */
-.work-group-heading {
+.work-group-heading,
+.group-heading {
   font-size: 1.2rem;
   font-weight: 900;
   margin-bottom: 10px;
@@ -77,4 +112,19 @@ input.form-control,
 textarea.form-control {
   border-color: #007dfe;
   border-radius: 0;
+}
+/* Footer */
+.footer-brand {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+.social-icon * {
+  font-size: 2rem;
+  margin-right: 5px;
+}
+.quicklink {
+  color: rgba(0, 0, 0, 0.74);
+}
+.quicklink:hover {
+  text-decoration: none;
 }
