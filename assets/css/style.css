@@ -25,6 +25,7 @@
   min-height: calc(100vh - 87px);
 }
 .img-contain {
+  max-width: 240px;
   object-fit: contain;
 }
 .btn {
@@ -100,6 +101,15 @@
   font-size: 1.2rem;
   font-weight: 900;
   margin-bottom: 10px;
+}
+/* App Features */
+.feature-icon {
+  width: 15%;
+  max-height: 60px;
+  max-width: 60px;
+}
+.feature-heading {
+  font-size: 18px;
 }
 /* In touch */
 .mw-form {
