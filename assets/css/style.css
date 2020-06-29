@@ -10,6 +10,7 @@
 }
 .navbar {
   min-height: 87px;
+  background-color: #ffffff;
 }
 .navbar-brand {
   font-size: 3rem;
@@ -23,6 +24,7 @@
 }
 .section-home {
   min-height: calc(100vh - 87px);
+  padding-top: 87px;
 }
 .img-contain {
   max-width: 240px;
