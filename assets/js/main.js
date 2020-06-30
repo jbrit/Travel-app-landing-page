@@ -1,4 +1,5 @@
 $(() => {
+  AOS.init();
   // Activate slider
   let slider = tns({
     container: ".my-slider",
