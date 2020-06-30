@@ -20,6 +20,9 @@ body {
   font-size: 52px;
   color: rgba(0, 0, 0, 0.9);
 }
+.ox-hidden {
+  overflow-x: hidden;
+}
 .navbar .nav-item > a.nav-link {
   font-weight: 700;
   white-space: nowrap;
