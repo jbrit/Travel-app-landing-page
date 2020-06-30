@@ -3,7 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+}
+body {
   font-size: 14px;
+  color: rgba(0, 0, 0, 0.74);
 }
 .second-bg {
   background-color: #fafafa;
@@ -13,7 +16,8 @@
   background-color: #ffffff;
 }
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 52px;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar .nav-item > a.nav-link {
   font-weight: 700;
@@ -21,6 +25,9 @@
 }
 .navbar .nav-item.active > a.nav-link {
   color: #2871fa;
+}
+.f-18 {
+  font-size: 18px;
 }
 .section-home {
   min-height: calc(100vh - 87px);
@@ -57,13 +64,10 @@
 .highlight {
   color: #2871fa;
 }
-.section-heading,
-.section-heading * {
+.section-heading {
   font-weight: 900;
-  font-size: 25px;
-  margin-bottom: 50px;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: inherit;
+  font-size: 36px;
+  margin-bottom: 90px;
 }
 /* User Review section */
 .user-review-card-group {
@@ -79,7 +83,10 @@
   top: -65px;
 }
 .card-head {
-  font-size: 20px;
+  font-size: 24px;
+}
+.card-desc {
+  font-size: 15px;
 }
 .card-icon {
   margin-left: auto;
@@ -93,6 +100,7 @@
   width: 80%;
   max-width: 500px;
   margin: auto;
+  font-size: 18px;
 }
 .tns-nav {
   display: none;
@@ -100,7 +108,7 @@
 /* How it works */
 .work-group-heading,
 .group-heading {
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: 900;
   margin-bottom: 10px;
 }
@@ -122,12 +130,15 @@
 }
 input.form-control,
 textarea.form-control {
-  border-color: #007dfe;
+  border-color: rgba(63, 63, 63, 0.7);
   border-radius: 0;
+}
+.form-inline input.form-control {
+  border-color: #2871fa;
 }
 /* Footer */
 .footer-brand {
-  font-size: 3rem;
+  font-size: 36px;
   color: rgba(0, 0, 0, 0.9);
 }
 .social-icon * {
