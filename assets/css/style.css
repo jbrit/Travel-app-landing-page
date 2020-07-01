@@ -13,7 +13,7 @@ body {
   background-color: #fafafa;
 }
 .navbar {
-  min-height: 87px;
+  min-height: 105px;
   background-color: #ffffff;
 }
 .navbar-brand {
@@ -34,8 +34,8 @@ body {
   font-size: 18px;
 }
 .section-home {
-  min-height: calc(100vh - 87px);
-  padding-top: 87px;
+  min-height: calc(100vh - 105px);
+  margin-top: 105px;
 }
 .img-contain {
   max-width: 240px;
@@ -74,9 +74,22 @@ body {
   margin-bottom: 90px;
 }
 /* User Review section */
+.my-slider-controls > span {
+  transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.my-slider-controls span:hover {
+  transform: scale(1.1);
+}
+.my-slider-controls > span:hover img {
+  box-shadow: 0px 4px 51px rgba(63, 63, 63, 0.07),
+    0px 1px 2px rgba(0, 0, 0, 0.08);
+}
+
 .user-review-card-group {
   margin-top: 65px;
   padding-top: 65px;
+  box-shadow: 0px 4px 51px rgba(63, 63, 63, 0.07),
+    0px 1px 2px rgba(0, 0, 0, 0.08);
 }
 .review-card-img {
   height: 130px;

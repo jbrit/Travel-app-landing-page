@@ -4,25 +4,24 @@ $(() => {
   let slider = tns({
     container: ".my-slider",
     items: 1,
+    speed: 1000,
     slideBy: "page",
     autoplay: true,
     autoplayButtonOutput: false,
     loop: true,
     mouseDrag: true,
-    controls: false,
-    navPosition: "bottom",
-    nav: true,
+    controlsContainer: ".my-slider-controls",
   });
   // Active section
   (() => {
     $(window).scroll(function () {
       // Says this function is preformed continuisly while scrolling.
-      var Scroll = $(window).scrollTop() + 87, // This variable finds the distance you have scrolled from the top.
-        SectionOneOffset = $("#section-home").offset().top - 87,
-        SectionTwoOffset = $("#section-works").offset().top - 87,
-        SectionThreeOffset = $("#section-features").offset().top - 87,
-        SectionFourOffset = $("#section-review").offset().top - 87,
-        SectionFiveOffset = $("#section-contact").offset().top - 87;
+      var Scroll = $(window).scrollTop() + 105, // This variable finds the distance you have scrolled from the top.
+        SectionOneOffset = $("#section-home").offset().top - 105,
+        SectionTwoOffset = $("#section-works").offset().top - 105,
+        SectionThreeOffset = $("#section-features").offset().top - 105,
+        SectionFourOffset = $("#section-review").offset().top - 105,
+        SectionFiveOffset = $("#section-contact").offset().top - 105;
       $("nav li").removeClass("active");
       if (Scroll >= SectionFiveOffset)
         $(".menu-item-5").parent().addClass("active");
