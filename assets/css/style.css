@@ -24,7 +24,7 @@ body {
   overflow-x: hidden;
 }
 .navbar .nav-item > a.nav-link {
-  font-weight: 700;
+  font-weight: 600;
   white-space: nowrap;
 }
 .navbar .nav-item.active > a.nav-link {
@@ -63,13 +63,13 @@ body {
   font-size: 36px;
 }
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 .highlight {
   color: #2871fa;
 }
 .section-heading {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
   margin-bottom: 90px;
 }
@@ -90,6 +90,7 @@ body {
   padding-top: 65px;
   box-shadow: 0px 4px 51px rgba(63, 63, 63, 0.07),
     0px 1px 2px rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.79);
 }
 .review-card-img {
   height: 130px;
@@ -126,7 +127,7 @@ body {
 .work-group-heading,
 .group-heading {
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 /* App Features */
@@ -139,8 +140,14 @@ body {
   font-size: 18px;
 }
 /* In touch */
-.mw-form {
+.mw-slide {
   max-width: 800px;
+}
+.mw-form {
+  max-width: 598px;
+}
+.mw-cc {
+  max-width: 674px;
 }
 .form-group {
   margin-bottom: 1.5rem;
@@ -152,6 +159,9 @@ textarea.form-control {
 }
 .form-inline input.form-control {
   border-color: #2871fa;
+}
+.contact-text {
+  color: rgba(0, 0, 0, 0.83);
 }
 /* Footer */
 .footer-brand {
@@ -168,8 +178,12 @@ textarea.form-control {
   border-radius: 50%;
 }
 .quicklink {
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.74);
 }
 .quicklink:hover {
   text-decoration: none;
+}
+.text-footer {
+  color: rgba(0, 0, 0, 0.63);
 }
